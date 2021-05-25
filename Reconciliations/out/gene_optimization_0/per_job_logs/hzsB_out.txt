@@ -1,0 +1,59 @@
+mpi-scheduler optimizeGeneTrees /mnt/home-backup/thliao/plancto/gene_trees/raw_seq/e20/ref_pdb/generax/indata/hzsB.newick /mnt/home-backup/thliao/plancto/gene_trees/raw_seq/e20/ref_pdb/generax/indata/hzsB.list /mnt/home-backup/thliao/plancto/gene_trees/raw_seq/e20/ref_pdb/generax/indata/hzsB.aln ./out/inferred_species_tree.newick LG+G4 ./out/gene_optimization_0/dtl_rates.txt 1 0 0 0 -1 1 1 1 1 ./out/results/hzsB/geneTree.newick ./out/results/hzsB/stats.txt 
+[00:00:24] Starting optimizeGeneTreesSlave
+LibpllModel LG+G4
+[00:00:24] Starting optimizing gene tree
+Number of ranks 19
+Taxa number: 51
+joint: -4929.55  libpll: -4739.84  reconciliation: -189.715  
+Initial ll = -4929.55
+Start SPR round (std::hash=26878, (best ll=-4929.55, radius=1, possible moves: 96)
+best;; -4922.71 7
+Start SPR round (std::hash=89222, (best ll=-4922.71, radius=1, possible moves: 96)
+best;; -4919.26 3
+Start SPR round (std::hash=70592, (best ll=-4919.26, radius=1, possible moves: 96)
+best;; -4914.93 2
+Start SPR round (std::hash=68892, (best ll=-4914.93, radius=1, possible moves: 96)
+best;; -4912.13 0
+Start SPR round (std::hash=86140, (best ll=-4912.13, radius=1, possible moves: 96)
+best;; -4910.08 9
+Start SPR round (std::hash=64114, (best ll=-4910.08, radius=1, possible moves: 96)
+best;; -4907.94 9
+Start SPR round (std::hash=34671, (best ll=-4907.94, radius=1, possible moves: 96)
+best;; -4906.02 14
+Start SPR round (std::hash=3445, (best ll=-4906.02, radius=1, possible moves: 96)
+best;; -4899.44 15
+Start SPR round (std::hash=91244, (best ll=-4899.44, radius=1, possible moves: 96)
+best;; -4897.61 9
+Start SPR round (std::hash=12068, (best ll=-4897.61, radius=1, possible moves: 96)
+best;; -4895.83 11
+Start SPR round (std::hash=79932, (best ll=-4895.83, radius=1, possible moves: 96)
+best;; -4894.37 9
+Start SPR round (std::hash=74204, (best ll=-4894.37, radius=1, possible moves: 96)
+best;; -4892.59 9
+Start SPR round (std::hash=12316, (best ll=-4892.59, radius=1, possible moves: 96)
+best;; -4891.54 8
+Start SPR round (std::hash=7724, (best ll=-4891.54, radius=1, possible moves: 96)
+best;; -4891.26 2
+Start SPR round (std::hash=6332, (best ll=-4891.26, radius=1, possible moves: 96)
+best;; -4888.89 2
+Start SPR round (std::hash=20380, (best ll=-4888.89, radius=1, possible moves: 96)
+best;; -4888.8 14
+Start SPR round (std::hash=67199, (best ll=-4888.8, radius=1, possible moves: 96)
+best;; -4884.74 14
+Start SPR round (std::hash=95950, (best ll=-4884.74, radius=1, possible moves: 96)
+best;; -4880.34 15
+Start SPR round (std::hash=19168, (best ll=-4880.34, radius=1, possible moves: 96)
+best;; -4880.29 0
+Start SPR round (std::hash=48584, (best ll=-4880.29, radius=1, possible moves: 96)
+best;; -4880.15 1
+Start SPR round (std::hash=46728, (best ll=-4880.15, radius=1, possible moves: 96)
+best;; -4879.72 1
+Start SPR round (std::hash=26536, (best ll=-4879.72, radius=1, possible moves: 96)
+best;; -4877.85 1
+Start SPR round (std::hash=16616, (best ll=-4877.85, radius=1, possible moves: 96)
+best;; -4877.85 0
+joint: -4877.85  libpll: -4739.84  reconciliation: -138.011  
+Saving tree in ./out/results/hzsB/geneTree.newick
+Finished saving  ./out/results/hzsB/geneTree.newick
+[00:00:31] End of optimizing gene tree
+[00:00:31] End of optimizeGeneTreesSlave

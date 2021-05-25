@@ -1,0 +1,16 @@
+The master process runs on node cl001 and on pid 93086
+Remaining commands: 3
+## Started hzsC on [0:18] 
+End of hzsC after 9300ms  (1/3)
+## Started hzsA on [0:18] 
+End of hzsA after 11652ms  (2/3)
+## Started hzsB on [0:18] 
+All commands were launched
+End of hzsB after 6715ms  (3/3)
+end of run
+Finished running commands. Total elasped time: 27s
+Load balance ratio: 0.949863
+Saving svg output in ./out/gene_optimization_4/statistics.svg
+total width 21
+Time spent writting svg: 0s
+End of Multiraxml run

@@ -1,0 +1,1344 @@
+<recPhylo 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.recg.org ./recGeneTreeXML.xsd"
+	xmlns="http://www.recg.org">
+<spTree>
+<phylogeny>
+<clade>
+		<name>I106_S100</name>
+	<clade>
+			<name>I144_S100</name>
+		<clade>
+				<name>I195_S100</name>
+			<clade>
+					<name>I247_S100</name>
+				<clade>
+						<name>I303_S91</name>
+					<clade>
+							<name>I368_S100</name>
+						<clade>
+								<name>I427_S100</name>
+							<clade>
+									<name>I497_S100</name>
+								<clade>
+										<name>I551_S100</name>
+									<clade>
+											<name>I608_S100</name>
+										<clade>
+												<name>GCA_007860005.1</name>
+										</clade>
+										<clade>
+												<name>GCA_004282735.1</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>GCA_002050325.1</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>I552_S100</name>
+									<clade>
+											<name>I609_S100</name>
+										<clade>
+												<name>GCA_002848945.1</name>
+										</clade>
+										<clade>
+												<name>GCA_007618155.1</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>GCA_001753675.2</name>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+									<name>I498_S100</name>
+								<clade>
+										<name>I553_S100</name>
+									<clade>
+											<name>I610_S100</name>
+										<clade>
+												<name>GCA_008933285.1</name>
+										</clade>
+										<clade>
+												<name>GCA_002009475.1</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>GCA_007618135.1</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>I554_S100</name>
+									<clade>
+											<name>I611_S100</name>
+										<clade>
+												<name>GCA_003577195.1</name>
+										</clade>
+										<clade>
+												<name>GCA_000987375.1</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>GCA_002050315.1</name>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+								<name>I428_S100</name>
+							<clade>
+									<name>I499_S100</name>
+								<clade>
+										<name>I555_S100</name>
+									<clade>
+											<name>GCA_000949635.1</name>
+									</clade>
+									<clade>
+											<name>GCA_008363395.1</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>GCA_003577215.1</name>
+								</clade>
+							</clade>
+							<clade>
+									<name>GCA_001567345.1</name>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+							<name>I369_S91</name>
+						<clade>
+								<name>I429_S69</name>
+							<clade>
+									<name>I500_S100</name>
+								<clade>
+										<name>I556_S100</name>
+									<clade>
+											<name>I612_S100</name>
+										<clade>
+												<name>GCA_001825635.1</name>
+										</clade>
+										<clade>
+												<name>GCA_001825655.1</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>GCA_001830315.1</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>GCA_001824485.1</name>
+								</clade>
+							</clade>
+							<clade>
+									<name>I501_S100</name>
+								<clade>
+										<name>I557_S100</name>
+									<clade>
+											<name>GCA_001828435.1</name>
+									</clade>
+									<clade>
+											<name>GCA_001828365.1</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>GCA_001830285.1</name>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+								<name>I430_S100</name>
+							<clade>
+									<name>I502_S75</name>
+								<clade>
+										<name>I558_S75</name>
+									<clade>
+											<name>I613_S75</name>
+										<clade>
+												<name>GCA_001828665.1</name>
+										</clade>
+										<clade>
+												<name>GCA_001828685.1</name>
+										</clade>
+									</clade>
+									<clade>
+											<name>I614_S78</name>
+										<clade>
+												<name>GCA_001824595.1</name>
+										</clade>
+										<clade>
+												<name>GCA_001828645.1</name>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+										<name>GCA_001825595.1</name>
+								</clade>
+							</clade>
+							<clade>
+									<name>GCA_001828535.1</name>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+						<name>I304_S100</name>
+					<clade>
+							<name>I370_S100</name>
+						<clade>
+								<name>I431_S100</name>
+							<clade>
+									<name>GCA_000296795.1</name>
+							</clade>
+							<clade>
+									<name>GCA_900696475.1</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>I432_S100</name>
+							<clade>
+									<name>GCA_008363445.1</name>
+							</clade>
+							<clade>
+									<name>GCA_005524015.1</name>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+							<name>GCA_900696655.1</name>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+					<name>I248_S100</name>
+				<clade>
+						<name>I305_S100</name>
+					<clade>
+							<name>I371_S100</name>
+						<clade>
+								<name>I433_S100</name>
+							<clade>
+									<name>GCA_002632395.1</name>
+							</clade>
+							<clade>
+									<name>GCA_900232105.1</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>I434_S100</name>
+							<clade>
+									<name>GCA_002418245.1</name>
+							</clade>
+							<clade>
+									<name>GCA_900232175.1</name>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+							<name>I372_S100</name>
+						<clade>
+								<name>I435_S100</name>
+							<clade>
+									<name>I503_S100</name>
+								<clade>
+										<name>GCA_000315115.1</name>
+								</clade>
+								<clade>
+										<name>GCA_000315095.1</name>
+								</clade>
+							</clade>
+							<clade>
+									<name>GCA_900696675.1</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>GCA_007618145.1</name>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+						<name>GCA_001828295.1</name>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>I196_S100</name>
+			<clade>
+					<name>I249_S100</name>
+				<clade>
+						<name>I306_S100</name>
+					<clade>
+							<name>I373_S100</name>
+						<clade>
+								<name>I436_S100</name>
+							<clade>
+									<name>I504_S100</name>
+								<clade>
+										<name>I559_S100</name>
+									<clade>
+											<name>GCA_000786775.1</name>
+									</clade>
+									<clade>
+											<name>GCA_002632345.1</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>I560_S99</name>
+									<clade>
+											<name>GCA_007859995.1</name>
+									</clade>
+									<clade>
+											<name>GCA_003230645.1</name>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+									<name>GCA_002443295.1</name>
+							</clade>
+						</clade>
+						<clade>
+								<name>I437_S100</name>
+							<clade>
+									<name>I505_S100</name>
+								<clade>
+										<name>I561_S100</name>
+									<clade>
+											<name>GCA_001828515.1</name>
+									</clade>
+									<clade>
+											<name>GCA_001824605.1</name>
+									</clade>
+								</clade>
+								<clade>
+										<name>GCA_001828595.1</name>
+								</clade>
+							</clade>
+							<clade>
+									<name>GCA_001824505.1</name>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+							<name>GCA_001723765.1</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>GCA_008636105.1</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>I250_S100</name>
+				<clade>
+						<name>I307_S1</name>
+					<clade>
+							<name>GCA_004351875.1</name>
+					</clade>
+					<clade>
+							<name>GCA_008501815.1</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>GCA_004282745.1</name>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+			<name>I145_S100</name>
+		<clade>
+				<name>I197_S100</name>
+			<clade>
+					<name>I251_S100</name>
+				<clade>
+						<name>I308_S100</name>
+					<clade>
+							<name>GCA_001830275.1</name>
+					</clade>
+					<clade>
+							<name>GCA_001828605.1</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>I309_S100</name>
+					<clade>
+							<name>GCA_001828385.1</name>
+					</clade>
+					<clade>
+							<name>GCA_001828565.1</name>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+					<name>I252_S100</name>
+				<clade>
+						<name>GCA_003545295.1</name>
+				</clade>
+				<clade>
+						<name>GCA_001824525.1</name>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+				<name>I198_S100</name>
+			<clade>
+					<name>GCA_001828545.1</name>
+			</clade>
+			<clade>
+					<name>GCA_001828415.1</name>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</spTree>
+
+<recGeneTree>
+<phylogeny rooted="true">
+<clade>
+	<name>NULL</name>
+	<eventsRec>
+		<speciation speciesLocation="I106_S100"/>
+	</eventsRec>
+	<clade>
+		<name>I10_S99</name>
+		<eventsRec>
+			<speciation speciesLocation="I145_S100"/>
+		</eventsRec>
+		<clade>
+			<name>001828415v1_00877</name>
+			<eventsRec>
+				<speciation speciesLocation="I198_S100"/>
+			</eventsRec>
+				<clade>
+				<name>loss</name>
+				<eventsRec>
+					<loss speciesLocation="GCA_001828545.1"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>001828415v1_00877</name>
+				<eventsRec>
+					<leaf speciesLocation="GCA_001828415.1"/>
+				</eventsRec>
+			</clade>
+		</clade>
+		<clade>
+			<name>I28_S1</name>
+			<eventsRec>
+				<speciation speciesLocation="I197_S100"/>
+			</eventsRec>
+			<clade>
+				<name>I14_S100</name>
+				<eventsRec>
+					<speciation speciesLocation="I252_S100"/>
+				</eventsRec>
+				<clade>
+					<name>001824525v1_00795</name>
+					<eventsRec>
+						<leaf speciesLocation="GCA_001824525.1"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>003545295v1_01182</name>
+					<eventsRec>
+						<leaf speciesLocation="GCA_003545295.1"/>
+					</eventsRec>
+				</clade>
+			</clade>
+			<clade>
+				<name>I37_S1</name>
+				<eventsRec>
+					<speciation speciesLocation="I251_S100"/>
+				</eventsRec>
+				<clade>
+					<name>I17_S58</name>
+					<eventsRec>
+						<speciation speciesLocation="I309_S100"/>
+					</eventsRec>
+					<clade>
+						<name>001828565v1_00460</name>
+						<eventsRec>
+							<leaf speciesLocation="GCA_001828565.1"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>001828385v1_01650</name>
+						<eventsRec>
+							<leaf speciesLocation="GCA_001828385.1"/>
+						</eventsRec>
+					</clade>
+				</clade>
+				<clade>
+					<name>I22_S1</name>
+					<eventsRec>
+						<speciation speciesLocation="I308_S100"/>
+					</eventsRec>
+					<clade>
+						<name>001830275v1_00475</name>
+						<eventsRec>
+							<leaf speciesLocation="GCA_001830275.1"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>001828605v1_00435</name>
+						<eventsRec>
+							<leaf speciesLocation="GCA_001828605.1"/>
+						</eventsRec>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+		<name>I7_S100</name>
+		<eventsRec>
+			<speciation speciesLocation="I144_S100"/>
+		</eventsRec>
+		<clade>
+			<name>I4_S100</name>
+			<eventsRec>
+				<speciation speciesLocation="I196_S100"/>
+			</eventsRec>
+			<clade>
+				<name>I8_S100</name>
+				<eventsRec>
+					<speciation speciesLocation="I250_S100"/>
+				</eventsRec>
+				<clade>
+					<name>I11_S1</name>
+					<eventsRec>
+						<speciation speciesLocation="I307_S1"/>
+					</eventsRec>
+					<clade>
+						<name>004351875v1_00864</name>
+						<eventsRec>
+							<leaf speciesLocation="GCA_004351875.1"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>008501815v1_02983</name>
+						<eventsRec>
+							<leaf speciesLocation="GCA_008501815.1"/>
+						</eventsRec>
+					</clade>
+				</clade>
+				<clade>
+					<name>004282745v1_00682</name>
+					<eventsRec>
+						<leaf speciesLocation="GCA_004282745.1"/>
+					</eventsRec>
+				</clade>
+			</clade>
+			<clade>
+				<name>I2_S90</name>
+				<eventsRec>
+					<duplication speciesLocation="I249_S100"/>
+				</eventsRec>
+				<clade>
+					<name>I5_S100</name>
+					<eventsRec>
+						<speciation speciesLocation="I249_S100"/>
+					</eventsRec>
+					<clade>
+						<name>008636105v1_01248</name>
+						<eventsRec>
+							<leaf speciesLocation="GCA_008636105.1"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>001723765v1_01057</name>
+						<eventsRec>
+							<speciation speciesLocation="I306_S100"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="I373_S100"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>001723765v1_01057</name>
+							<eventsRec>
+								<leaf speciesLocation="GCA_001723765.1"/>
+							</eventsRec>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>I1_S100</name>
+					<eventsRec>
+						<speciation speciesLocation="I249_S100"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="GCA_008636105.1"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>I1_S100</name>
+						<eventsRec>
+							<speciation speciesLocation="I306_S100"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="GCA_001723765.1"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>I1_S100</name>
+							<eventsRec>
+								<speciation speciesLocation="I373_S100"/>
+							</eventsRec>
+							<clade>
+								<name>I3_S100</name>
+								<eventsRec>
+									<speciation speciesLocation="I436_S100"/>
+								</eventsRec>
+								<clade>
+									<name>I6_S100</name>
+									<eventsRec>
+										<speciation speciesLocation="I504_S100"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="I560_S99"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>I6_S100</name>
+										<eventsRec>
+											<speciation speciesLocation="I559_S100"/>
+										</eventsRec>
+										<clade>
+											<name>002632345v1_03608</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_002632345.1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>000786775v1_01606</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_000786775.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>002443295v1_04123</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_002443295.1"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>NoName</name>
+								<eventsRec>
+									<speciation speciesLocation="I437_S100"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="GCA_001824505.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>NoName</name>
+									<eventsRec>
+										<speciation speciesLocation="I505_S100"/>
+									</eventsRec>
+									<clade>
+										<name>001828515v1_02204</name>
+										<eventsRec>
+											<speciation speciesLocation="I561_S100"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="GCA_001824605.1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>001828515v1_02204</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_001828515.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>001828595v1_00556</name>
+										<eventsRec>
+											<leaf speciesLocation="GCA_001828595.1"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+			<name>I9_S100</name>
+			<eventsRec>
+				<speciation speciesLocation="I195_S100"/>
+			</eventsRec>
+			<clade>
+				<name>I23_S69</name>
+				<eventsRec>
+					<speciation speciesLocation="I248_S100"/>
+				</eventsRec>
+					<clade>
+					<name>loss</name>
+					<eventsRec>
+						<loss speciesLocation="GCA_001828295.1"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>I23_S69</name>
+					<eventsRec>
+						<speciation speciesLocation="I305_S100"/>
+					</eventsRec>
+					<clade>
+						<name>I57_S1</name>
+						<eventsRec>
+							<speciation speciesLocation="I372_S100"/>
+						</eventsRec>
+						<clade>
+							<name>007618145v1_00817</name>
+							<eventsRec>
+								<leaf speciesLocation="GCA_007618145.1"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>I18_S48</name>
+							<eventsRec>
+								<speciation speciesLocation="I435_S100"/>
+							</eventsRec>
+							<clade>
+								<name>I38_S1</name>
+								<eventsRec>
+									<speciation speciesLocation="I503_S100"/>
+								</eventsRec>
+								<clade>
+									<name>000315115v1_02791</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_000315115.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>000315095v1_00925</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_000315095.1"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>900696675v1_02366</name>
+								<eventsRec>
+									<leaf speciesLocation="GCA_900696675.1"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>I58_S1</name>
+						<eventsRec>
+							<duplication speciesLocation="I371_S100"/>
+						</eventsRec>
+						<clade>
+							<name>I55_S1</name>
+							<eventsRec>
+								<speciation speciesLocation="I371_S100"/>
+							</eventsRec>
+							<clade>
+								<name>900232105v1_02713</name>
+								<eventsRec>
+									<speciation speciesLocation="I433_S100"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="GCA_002632395.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>900232105v1_02713</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_900232105.1"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>I53_S1</name>
+								<eventsRec>
+									<speciation speciesLocation="I434_S100"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="GCA_002418245.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>I53_S1</name>
+									<eventsRec>
+										<duplication speciesLocation="GCA_900232175.1"/>
+									</eventsRec>
+									<clade>
+										<name>I50_S1</name>
+										<eventsRec>
+											<duplication speciesLocation="GCA_900232175.1"/>
+										</eventsRec>
+										<clade>
+											<name>900232175v1_01560</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_900232175.1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>900232175v1_03517</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_900232175.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>I46_S1</name>
+										<eventsRec>
+											<duplication speciesLocation="GCA_900232175.1"/>
+										</eventsRec>
+										<clade>
+											<name>900232175v1_07728</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_900232175.1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>900232175v1_05438</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_900232175.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>I15_S43</name>
+							<eventsRec>
+								<speciation speciesLocation="I371_S100"/>
+							</eventsRec>
+							<clade>
+								<name>I12_S100</name>
+								<eventsRec>
+									<speciation speciesLocation="I434_S100"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="GCA_002418245.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>I12_S100</name>
+									<eventsRec>
+										<duplication speciesLocation="GCA_900232175.1"/>
+									</eventsRec>
+									<clade>
+										<name>I19_S62</name>
+										<eventsRec>
+											<duplication speciesLocation="GCA_900232175.1"/>
+										</eventsRec>
+										<clade>
+											<name>900232175v1_06666</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_900232175.1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>900232175v1_06668</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_900232175.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>900232175v1_06667</name>
+										<eventsRec>
+											<leaf speciesLocation="GCA_900232175.1"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>900232105v1_03603</name>
+								<eventsRec>
+									<speciation speciesLocation="I433_S100"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="GCA_002632395.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>900232105v1_03603</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_900232105.1"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+				<name>I13_S85</name>
+				<eventsRec>
+					<speciation speciesLocation="I247_S100"/>
+				</eventsRec>
+				<clade>
+					<name>I16_S57</name>
+					<eventsRec>
+						<speciation speciesLocation="I303_S91"/>
+					</eventsRec>
+					<clade>
+						<name>I20_S48</name>
+						<eventsRec>
+							<branchingOut speciesLocation="I369_S91"/>
+						</eventsRec>
+						<clade>
+							<name>I31_S100</name>
+							<eventsRec>
+								<transferBack destinationSpecies="I553_S100"/>
+								<speciation speciesLocation="I553_S100"/>
+							</eventsRec>
+							<clade>
+								<name>007618135v1_02306</name>
+								<eventsRec>
+									<leaf speciesLocation="GCA_007618135.1"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>I41_S100</name>
+								<eventsRec>
+									<speciation speciesLocation="I610_S100"/>
+								</eventsRec>
+								<clade>
+									<name>002009475v1_01907</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_002009475.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>008933285v1_01418</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_008933285.1"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>I30_S93</name>
+							<eventsRec>
+								<speciation speciesLocation="I369_S91"/>
+							</eventsRec>
+							<clade>
+								<name>I40_S100</name>
+								<eventsRec>
+									<speciation speciesLocation="I430_S100"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="GCA_001828535.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>I40_S100</name>
+									<eventsRec>
+										<speciation speciesLocation="I502_S75"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="GCA_001825595.1"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>I40_S100</name>
+										<eventsRec>
+											<speciation speciesLocation="I558_S75"/>
+										</eventsRec>
+										<clade>
+											<name>001828645v1_00555</name>
+											<eventsRec>
+												<speciation speciesLocation="I614_S78"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="GCA_001824595.1"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>001828645v1_00555</name>
+												<eventsRec>
+													<leaf speciesLocation="GCA_001828645.1"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>001828665v1_02164</name>
+											<eventsRec>
+												<speciation speciesLocation="I613_S75"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="GCA_001828685.1"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>001828665v1_02164</name>
+												<eventsRec>
+													<leaf speciesLocation="GCA_001828665.1"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>I51_S100</name>
+								<eventsRec>
+									<speciation speciesLocation="I429_S69"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="I501_S100"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>I51_S100</name>
+									<eventsRec>
+										<speciation speciesLocation="I500_S100"/>
+									</eventsRec>
+									<clade>
+										<name>I56_S1</name>
+										<eventsRec>
+											<speciation speciesLocation="I556_S100"/>
+										</eventsRec>
+										<clade>
+											<name>I54_S63</name>
+											<eventsRec>
+												<speciation speciesLocation="I612_S100"/>
+											</eventsRec>
+											<clade>
+												<name>001825655v1_01235</name>
+												<eventsRec>
+													<leaf speciesLocation="GCA_001825655.1"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>001825635v1_01265</name>
+												<eventsRec>
+													<leaf speciesLocation="GCA_001825635.1"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>001830315v1_00134</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_001830315.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>001824485v1_00175</name>
+										<eventsRec>
+											<leaf speciesLocation="GCA_001824485.1"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>I21_S99</name>
+						<eventsRec>
+							<speciation speciesLocation="I368_S100"/>
+						</eventsRec>
+						<clade>
+							<name>I26_S100</name>
+							<eventsRec>
+								<speciation speciesLocation="I427_S100"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="I498_S100"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>I26_S100</name>
+								<eventsRec>
+									<speciation speciesLocation="I497_S100"/>
+								</eventsRec>
+								<clade>
+									<name>I43_S1</name>
+									<eventsRec>
+										<speciation speciesLocation="I551_S100"/>
+									</eventsRec>
+									<clade>
+										<name>I48_S1</name>
+										<eventsRec>
+											<speciation speciesLocation="I608_S100"/>
+										</eventsRec>
+										<clade>
+											<name>I33_S98</name>
+											<eventsRec>
+												<duplication speciesLocation="GCA_007860005.1"/>
+											</eventsRec>
+											<clade>
+												<name>007860005v1_02674</name>
+												<eventsRec>
+													<leaf speciesLocation="GCA_007860005.1"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>007860005v1_02188</name>
+												<eventsRec>
+													<leaf speciesLocation="GCA_007860005.1"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>004282735v1_00032</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_004282735.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>002050325v1_01587</name>
+										<eventsRec>
+											<leaf speciesLocation="GCA_002050325.1"/>
+										</eventsRec>
+									</clade>
+								</clade>
+								<clade>
+									<name>I34_S98</name>
+									<eventsRec>
+										<speciation speciesLocation="I552_S100"/>
+									</eventsRec>
+									<clade>
+										<name>I44_S99</name>
+										<eventsRec>
+											<speciation speciesLocation="I609_S100"/>
+										</eventsRec>
+										<clade>
+											<name>007618155v1_00374</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_007618155.1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>002848945v1_02835</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_002848945.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>001753675v2_01376</name>
+										<eventsRec>
+											<leaf speciesLocation="GCA_001753675.2"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>I27_S99</name>
+							<eventsRec>
+								<duplication speciesLocation="I428_S100"/>
+							</eventsRec>
+							<clade>
+								<name>I35_S100</name>
+								<eventsRec>
+									<speciation speciesLocation="I428_S100"/>
+								</eventsRec>
+								<clade>
+									<name>001567345v1_00148</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_001567345.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>I49_S1</name>
+									<eventsRec>
+										<speciation speciesLocation="I499_S100"/>
+									</eventsRec>
+									<clade>
+										<name>I52_S1</name>
+										<eventsRec>
+											<speciation speciesLocation="I555_S100"/>
+										</eventsRec>
+										<clade>
+											<name>I45_S50</name>
+											<eventsRec>
+												<duplication speciesLocation="GCA_000949635.1"/>
+											</eventsRec>
+											<clade>
+												<name>000949635v1_02663</name>
+												<eventsRec>
+													<leaf speciesLocation="GCA_000949635.1"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>000949635v1_00672</name>
+												<eventsRec>
+													<leaf speciesLocation="GCA_000949635.1"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>008363395v1_00993</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_008363395.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>003577215v1_03336</name>
+										<eventsRec>
+											<leaf speciesLocation="GCA_003577215.1"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>I36_S99</name>
+								<eventsRec>
+									<speciation speciesLocation="I428_S100"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="GCA_001567345.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>I36_S99</name>
+									<eventsRec>
+										<speciation speciesLocation="I499_S100"/>
+									</eventsRec>
+									<clade>
+										<name>008363395v1_00565</name>
+										<eventsRec>
+											<speciation speciesLocation="I555_S100"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="GCA_000949635.1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>008363395v1_00565</name>
+											<eventsRec>
+												<leaf speciesLocation="GCA_008363395.1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>003577215v1_01347</name>
+										<eventsRec>
+											<leaf speciesLocation="GCA_003577215.1"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>I24_S39</name>
+					<eventsRec>
+						<speciation speciesLocation="I304_S100"/>
+					</eventsRec>
+					<clade>
+						<name>I25_S100</name>
+						<eventsRec>
+							<speciation speciesLocation="I370_S100"/>
+						</eventsRec>
+						<clade>
+							<name>I32_S98</name>
+							<eventsRec>
+								<speciation speciesLocation="I431_S100"/>
+							</eventsRec>
+							<clade>
+								<name>900696475v1_03325</name>
+								<eventsRec>
+									<leaf speciesLocation="GCA_900696475.1"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>I42_S1</name>
+								<eventsRec>
+									<duplication speciesLocation="GCA_000296795.1"/>
+								</eventsRec>
+								<clade>
+									<name>000296795v1_00436</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_000296795.1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>000296795v1_03650</name>
+									<eventsRec>
+										<leaf speciesLocation="GCA_000296795.1"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>005524015v1_03303</name>
+							<eventsRec>
+								<speciation speciesLocation="I432_S100"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="GCA_008363445.1"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>005524015v1_03303</name>
+								<eventsRec>
+									<leaf speciesLocation="GCA_005524015.1"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>900696655v1_02471</name>
+						<eventsRec>
+							<leaf speciesLocation="GCA_900696655.1"/>
+						</eventsRec>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</recGeneTree>
+</recPhylo>

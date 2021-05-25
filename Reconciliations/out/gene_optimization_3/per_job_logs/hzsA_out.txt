@@ -1,0 +1,15 @@
+mpi-scheduler optimizeGeneTrees ./out/results/hzsA/geneTree.newick /mnt/home-backup/thliao/plancto/gene_trees/raw_seq/e20/ref_pdb/generax/indata/hzsA.list /mnt/home-backup/thliao/plancto/gene_trees/raw_seq/e20/ref_pdb/generax/indata/hzsA.aln ./out/inferred_species_tree.newick LG+G4 ./out/gene_optimization_3/dtl_rates.txt 1 0 0 0 -1 1 1 1 4 ./out/results/hzsA/geneTree.newick ./out/results/hzsA/stats.txt 
+[00:02:06] Starting optimizeGeneTreesSlave
+LibpllModel LG+G4
+[00:02:06] Starting optimizing gene tree
+Number of ranks 19
+Taxa number: 58
+joint: -10533.4  libpll: -10419.1  reconciliation: -114.37  
+Initial ll = -10533.4
+Start SPR round (std::hash=53352, (best ll=-10533.4, radius=4, possible moves: 2374)
+best;; -10533.4 0
+joint: -10533.4  libpll: -10419.1  reconciliation: -114.37  
+Saving tree in ./out/results/hzsA/geneTree.newick
+Finished saving  ./out/results/hzsA/geneTree.newick
+[00:02:15] End of optimizing gene tree
+[00:02:15] End of optimizeGeneTreesSlave
