@@ -9,6 +9,24 @@ It includes but not only
 4. molecular dating analysis based on MCMCTree impletement in PAML and *Bayes Factor calculation*
 
 
+# Contents of each directory
+
+* Comparative analysis 
+  * Scripts and full results of genome comparative analysis and enrichment analsyis
+* Dating analysis
+  * template for mcmctree
+  * script for mcmc3r 
+* Genome retrival
+  * script for genome retrival and list of accession id of used genomes
+* Phylogenetic analysis
+  * 16S tree
+  * gene trees (hzsCBA)
+  * species tree
+* Reconcilications
+  * configuration file and input data for GenRax
+* Visualizations
+  * script generating itol annotation files 
+
 Above steps mostly are depend on the another toolkit ([evol-tk](https://github.com/444thLiao/evol_tk)) 
 If you want to utilize scripts involved in above steps, maybe you should import functions or run some scripts from this repo.
 
