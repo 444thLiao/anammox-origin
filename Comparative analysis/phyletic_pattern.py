@@ -1,20 +1,36 @@
 import plotly.graph_objects as go
 from collections import defaultdict
-from for_software.for_bayestraits.api.summarize_hmm import filtration_part
-import itertools
-import os
-import re
-import string
+import os,re,string,itertools
 from os.path import *
 from glob import glob
 from collections import Counter,defaultdict
 import pandas as pd
-from api_tools.itol_func import *
-from bin.other_convertor.classify_kos import *
 from ete3 import Tree
 from scipy.stats import fisher_exact
 from statsmodels.stats.multitest import multipletests
 from tqdm import tqdm
+
+from for_software.for_bayestraits.api.summarize_hmm import filtration_part
+from api_tools.itol_func import *
+from bin.other_convertor.classify_kos import *
+
+group_info_dict = {'anammox': 'GCA_001824525.1,GCA_008933285.1',
+                   'Scalindua': 'GCA_004282745.1,GCA_007859995.1',
+                   'Kuenenia': "GCA_002418245.1,GCA_900696675.1",
+                   'Jettenia': "GCA_900696475.1,GCA_900696655.1",
+                   "Brocadia": "GCA_001828415.1,GCA_001828605.1",
+                   "Basal": "GCA_001828605.1,GCA_001828415.1"}
+group_info = ['Scalindua',
+              'Kuenenia',
+              'Jettenia',
+              "Brocadia",
+              "Basal"]
+
+tab = "/mnt/home-backup/thliao/plancto/protein_annotations/join_all_6dbs.tab"
+all_df = pd.read_csv(tab, sep='\t', index_col=0)
+
+tab = "/mnt/home-backup/thliao/plancto/protein_annotations/hmmsearch_merged/merged_hmm_binary.tab"
+all_df = pd.read_csv(tab, sep='\t', index_col=0)
 
 def get_ko_info(ko):
     df = pd.read_csv('/mnt/home-backup/thliao/protein_db/kegg/ko_info.tab',sep='\t',index_col=0,header=None)
@@ -57,8 +73,6 @@ def process_grouping(info2style,sub_df):
     sub_df = sub_df.loc[:,_i2style]
     return _i2style,sub_df
 
-tab = "/mnt/home-backup/thliao/plancto/protein_annotations/join_all_6dbs.tab"
-all_df = pd.read_csv(tab, sep='\t', index_col=0)
 def draw_pattern(intab="./gene_GandL/kegg_db/genera_specific/draw_genes.tab",
                  odir = "./gene_GandL/itol_txt/",
                  anammox_only=True,
@@ -129,7 +143,6 @@ def sep_ko(ko_list):
             kos.append('K' + _.strip(string.printable[10:]).strip(' '))
     return kos
 
-
 def get_count(df, tree, ko_list, group1, group2):
     LCA = tree.get_common_ancestor(group1.split(','))
     larger_LCA = tree.get_common_ancestor(group2.split(','))
@@ -149,7 +162,6 @@ def get_count(df, tree, ko_list, group1, group2):
     s2 = df.loc[g2, remained_kos].sum()
     print(f"total: {len(g1)}, present in ({s1 / len(g1) * 100}) genomes")
     print(f"total: {len(g2)}, present in ({s2 / len(g2) * 100}) genomes")
-
 
 def fe_text(g1, g2, ko_df):
     ko2tab = {}
@@ -262,11 +274,6 @@ def main(annotation_df, tree, group1, group2, ofile=None,
         final_df.to_excel(ofile, index_label='K number')
 
 
-# all gene table
-tab = "/mnt/home-backup/thliao/plancto/protein_annotations/hmmsearch_merged/merged_hmm_binary.tab"
-all_df = pd.read_csv(tab, sep='\t', index_col=0)
-
-
 # for dating tree
 intree = './trees/iqtree/over20p_bac120.formatted.newick'
 t = Tree(intree, 3)
@@ -277,7 +284,6 @@ g = larger_LCA.get_leaf_names()
 g1 = LCA.get_leaf_names()
 # target group
 g2 = set(g).difference(set(g1))
-
 
 all2p = {}
 for row in tqdm(f1.split('\n')):
@@ -290,7 +296,10 @@ for row in tqdm(f1.split('\n')):
         g1, g2, all_df.loc[:,[ID]])
         
         all2p.update(ko2pvalue)
-ID2color = {k: '#1976D2' if k in all2cp else '#558B2F' for k,v in all2p.items()}
+        
+ID2color = {k: '#1976D2' 
+            if k in all2cp else '#558B2F' 
+            for k,v in all2p.items()}
 draw_pattern(intab='./gene_GandL/draw_genes.tab',
              odir='./gene_GandL/itol_txt/othercolors',ID2color=ID2color,anammox_only=False)
 
@@ -312,30 +321,7 @@ main(all_df,
      group2='GCA_003694635.1,GCA_003551565.1',
      ofile='./gene_GandL/dating_83g.xlsx')
 
-## compared group
-
-group_info_dict = {'anammox': 'GCA_001824525.1,GCA_008933285.1',
-                   'Scalindua': 'GCA_004282745.1,GCA_007859995.1',
-                   'Kuenenia': "GCA_002418245.1,GCA_900696675.1",
-                   'Jettenia': "GCA_900696475.1,GCA_900696655.1",
-                   "Brocadia": "GCA_001828415.1,GCA_001828605.1",
-                   "Basal": "GCA_001828605.1,GCA_001828415.1"}
-group_info = ['Scalindua',
-              'Kuenenia',
-              'Jettenia',
-              "Brocadia",
-              "Basal"]
-
-
-# tree = Tree('./trees/iqtree/over20p_bac120.formatted.newick', 3)
-# for g1, g2 in itertools.combinations(group_info, 2):
-#     main(all_df.reindex(columns=[_ for _ in all_df.columns if _.startswith('K')]),
-#          Tree('./trees/iqtree/over20p_bac120.formatted.newick', 3),
-#          group1=group_info_dict[g1],
-#          group2=group_info_dict[g2],
-#          just_g2=True,
-#          ofile=f'./gene_GandL/intergeneric/{g1}_{g2}.xlsx')
-
+##! compared group
 
 def add_count(ori_df, tree, group1, group2, id_list, extra_df: pd.DataFrame = None):
     if len(id_list) == 0:
@@ -372,7 +358,6 @@ def add_count(ori_df, tree, group1, group2, id_list, extra_df: pd.DataFrame = No
     # count_df.loc[:, 'sub2'] = count_df.loc[:, 'present in target'] - count_df.loc[:, 'present in other']
     # count_df = count_df.sort_values(['sub1', 'sub2'], ascending=False)
     return count_df
-
 
 ## go enrichment for kegg
 def get_GO_enrichment(sig_kegg, pop_kegg, ofile, dtype="kegg", extra_parameters=''):
@@ -771,7 +756,7 @@ id2info = {k.split(';')[1].strip().rpartition('.')[0].rpartition('.')[0]: k.spli
 _df = pd.DataFrame.from_dict(id2info, orient='index')
 _df.columns = ['des']
 
-# genus
+# genus specific comparative analysis
 odir = "/home-user/thliao/data/plancto/gene_GandL/other_db/genus_specific"
 for genus in group_info:
     collect_dfs = {}
@@ -830,8 +815,8 @@ collect_dfs["TCDB"] = db_df
 with pd.ExcelWriter(ofile) as writer:
     for db, df in collect_dfs.items():
         df.to_excel(writer, sheet_name=db, index=True)
+        
 ## draw kegg pathway
-
 df = pd.read_excel("./gene_GandL/kegg_db/over20p_gain_loss.xlsx")
 df = df.set_index("KO number")
 t1 = df["ratio in target (%)"]
@@ -848,13 +833,7 @@ used_list = sorted(list(set(tmp)), key=lambda x: Counter(counter_pathway)[x])
 for _ in used_list:
     print(_, Counter(counter_pathway)[
           _], tmp[_], '+'.join([_] + [k for k, ko in ko2p.items() if _ in list(ko)]))
-
-fig = go.Figure()
-fig.add_bar(x=[Counter(counter_pathway)[_] for _ in used_list],
-            y=[tmp[_] for _ in used_list],
-            orientation='h')
-fig.write_html('./test.html')
-
+    
 kos = set(df.index[(t1 <= 0.3)])
 
 # lost genes
@@ -875,9 +854,7 @@ fig.add_bar(x=[Counter(counter_pathway)[_] for _ in used_list],
 fig.write_html('./test.html')
 
 
-
-
-## ladderance
+##! ladderance
 from subprocess import check_call
 cmd = "mkdir -p /mnt/home-backup/thliao/plancto/gene_GandL/itol_txt/usages"
 check_call(cmd,shell=1)
@@ -913,17 +890,3 @@ for df in tqdm(dfs):
         genome2info[genome].append(
             (row[0], row[1].split('|')[-1], float(row[10])))
 post_filtered = filtration_part(genome2info, evalue=1e-50)
-
-odir = f'{indir}/..'
-if not exists(odir):
-    os.makedirs(odir)
-ofile_info = join(odir, "merged_info.tab")
-ofile_binary = join(odir, "merged_binary.tab")
-ofile_num = join(odir, "merged_num.tab")
-final_df = pd.DataFrame.from_dict(post_filtered, orient='index')
-bin_df = final_df.applymap(lambda x: 0 if pd.isna(x) else 1)
-num_df = final_df.applymap(lambda x: 0 if pd.isna(x)
-                           else len(str(x).split(',')))
-final_df.to_csv(ofile_info, sep='\t', index=1)
-bin_df.to_csv(ofile_binary, sep='\t', index=1)
-num_df.to_csv(ofile_num, sep='\t', index=1)
