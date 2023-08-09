@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Phylogenomic Evidence for the Origin of Obligate Anaerobic
+  Anammox Bacteria Around the Great Oxidation Event
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Tianhua
+    family-names: Liao
+    email: l0404th@gmail.com
+    affiliation: CUHK
+    orcid: 'https://orcid.org/0000-0002-4818-9346'
+identifiers:
+  - type: doi
+    value: 10.1093/molbev/msac170
+    description: Publication
